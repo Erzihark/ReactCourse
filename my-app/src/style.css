@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    color: rgb(78, 160, 132);
+}
+
+.navbar {
+    height: 80px;
+    padding: 20px;
+    background-color: #333;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+.content {
+    padding: 15px;
+}
+
+.todo-list {
+    width: 50%;
+    flex-direction: column;
+    border: 1px solid rgb(133, 110, 9);
+    margin-left: 1%;
+    padding: 15px;
+    display: flex;
+    background-color: rgb(234, 243, 156);
+}
+
+.todo-item {
+    display: flex;
+    width: 70%;
+    border-bottom:1px solid rgb(133, 110, 9);
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 20px 0;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
